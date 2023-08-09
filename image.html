@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMAGE GALLERY</title>
+    <link rel="stylesheet" href="image.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js" integrity="sha512-uKQ39gEGiyUJl4AI6L+ekBdGKpGw4xJ55+xyJG7YFlJokPNYegn9KwQ3P8A7aFQAUtUsAQHep+d/lrGqrbPIDQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body>
+    <div class="wrapper">
+        <nav>
+            <div class="items">
+                <span class="item active" data-name="all">ALL</span>
+                <span class="item" data-name="bag"> Bag</span>
+                <span class="item" data-name="shoe">Shoe</span>
+                <span class="item" data-name="watch">Watch</span>
+                <span class="item" data-name="camera">Camera</span>
+                <span class="item" data-name="headphone">Headphone</span>
+            </div>
+        </nav>
+        <!--image gallery-->
+        <div class="gallery">
+            <div class="image" data-name="bag"><span><img src="bag.jpg" alt=""></span></div>
+            <div class="image" data-name="camera"><span><img src="camera1.jpg" alt=""></span></div>
+            <div class="image" data-name="camera"><span><img src="camera2.jpg" alt=""></span></div>
+            <div class="image" data-name="headphone"><span><img src="headphone1.jpg" alt=""></span></div>
+            <div class="image" data-name="headphone"><span><img src="headphone2.jpg" alt=""></span></div>
+            <div class="image" data-name="shoe"><span><img src="shoe4.jpg" alt=""></span></div>
+            <div class="image" data-name="watch"><span><img src="watch.jpg" alt=""></span></div>
+            <div class="image" data-name="watch"><span><img src="watch2.jpg" alt=""></span></div>
+    
+        </div>
+        
+    </div>
+    <!-- clickimage-->
+        <div class="previewbox">
+            <div class="details">
+                <span class="title">image category : <p>not defined</p></span>
+                <div class="icon fas fa-times"><p>close</p></div>
+            </div>
+            <div class="imagebox">
+                <img src="" alt="">
+            </div>
+            
+            
+        </div>
+        <div class="shadow"></div>
+    
+    
+    
+</body>
+<script src="image.js"></script>
+</html>
